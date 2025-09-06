@@ -1,0 +1,96 @@
+{
+
+    "vim.useSystemClipboard": true,
+    "vim.leader": "<Space>",
+    "vim.insertModeKeyBindings": [
+    {
+        "before": ["k", "j"],
+        "after": ["<Esc>", "l"]
+    }
+    ],
+
+    "vim.normalModeKeyBindingsNonRecursive": [
+        { "before": ["leader", "v"], "commands": [":vsplit"] },
+        { "before": ["leader", "s"], "commands": [":split"] },
+        
+        {
+        "before": ["leader", "h"],
+        "commands": ["workbench.action.focusLeftGroup"]
+        },
+        {
+        "before": ["leader", "j"],
+        "commands": ["workbench.action.focusBelowGroup"]
+        },
+        {
+        "before": ["leader", "k"],
+        "commands": ["workbench.action.focusAboveGroup"]
+        },
+        {
+        "before": ["leader", "l"],
+        "commands": ["workbench.action.focusRightGroup"]
+        },
+    ],
+
+    
+    "explorer.confirmDelete": false,
+    "redhat.telemetry.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.minimap.enabled": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "tabnine.experimentalAutoImports": true,
+    "explorer.confirmDragAndDrop": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+    "terminal.explorerKind": "external",
+    "supermaven.enable": {
+        "*": false
+    },
+    "supermaven.otherWarning": false,
+    "window.confirmSaveUntitledWorkspace": false,
+    "breadcrumbs.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "extensions.ignoreRecommendations": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "chat.tools.autoApprove": true,
+    "github.copilot.chat.agent.thinkingTool": true,
+    "git.ignoreRebaseWarning": true,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.fontFamily": "Fira Code, monospace",
+    "go.toolsManagement.autoUpdate": true,
+    "git.openRepositoryInParentFolders": "never",
+    "explorer.confirmPasteNative": false,
+    "python.createEnvironment.trigger": "off",
+    "editor.linkedEditing": true,
+    "chat.editing.confirmEditRequestRemoval": false,
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+
+        "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[javascriptreact]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+        },
+        "[css]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+        },
+        "[html]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+        },
+        "[json]": {
+        "editor.tabSize": 2
+        },
+        "pieces.OS.launchOnStartup": "Yes",
+        "workbench.colorTheme": "Gruvbox ish Dark Hard",
+
+}

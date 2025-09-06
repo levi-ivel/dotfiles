@@ -1,0 +1,27 @@
+[general]
+# Manual sensitivity in %. If autosens is enabled, this will only be the initial value.
+# 200 means double height. Accepts only non-negative values.
+sensitivity = 70
+
+
+[output]
+# Output method. Can be 'ncurses', 'noncurses', 'raw', 'noritake', 'sdl'
+# or 'sdl_glsl'.
+method = noncurses
+
+orientation = top
+
+
+[color]
+gradient = 1
+gradient_color_1 = '#a6e3a1'
+gradient_color_2 = '#f9e2af'
+gradient_color_3 = '#f38ba8'
+
+
+[smoothing]
+monstercat = 0
+waves = 0
+
+noise_reduction = 60
+

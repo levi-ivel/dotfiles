@@ -1,0 +1,11 @@
+workspaceStorage/
+globalStorage/
+storage.json
+state.vscdb*
+History/
+
+plugin/
+snippets/
+sync/
+lazy-lock.json
+packer_compiled.lua
