@@ -14,9 +14,9 @@ orientation = top
 
 [color]
 gradient = 1
-gradient_color_1 = '#a6e3a1'
-gradient_color_2 = '#f9e2af'
-gradient_color_3 = '#f38ba8'
+gradient_color_1 = '#7c6f64'
+gradient_color_2 = '#928374'
+gradient_color_3 = '#83a598'
 
 
 [smoothing]
