@@ -1,7 +1,7 @@
 font-family = BerkeleyMono Nerd Font
 #font-family = Iosevka Nerd Font
 # font-family = SFMono Nerd Font
-theme = GruvboxDarkHard
+theme = Gruvbox Dark Hard
 shell-integration-features = no-cursor,sudo,no-title
 cursor-style = block
 adjust-cell-height = 35%
