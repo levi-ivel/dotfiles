@@ -92,5 +92,26 @@
         },
         "pieces.OS.launchOnStartup": "Yes",
         "workbench.colorTheme": "Gruvbox ish Dark Hard",
+        "dotnet.codeLens.enableReferencesCodeLens": false,
+        "codesnap.showWindowTitle": true,
+        "codesnap.shutterAction": "copy",
+        "codesnap.target": "window",
+        "codesnap.transparentBackground": true,
+        "workbench.sideBar.location": "right",
+        "github.copilot.enable": {
+            "*": true,
+            "plaintext": false,
+            "markdown": true,
+            "scminput": false
+        },
+        "zig.zls.enabled": "on",
+        "haskell.manageHLS": "GHCup",
+        "chat.useNestedAgentsMdFiles": true,
+        "chat.useAgentSkills": true,
+        "chat.tools.terminal.autoApprove": {
+            "bun": true,
+            "npx playwright": true,
+            "npx vitest": true
+        },
 
 }
